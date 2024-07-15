@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" id="oranda" class="dark">
+    <head>
+        <title>My Oranda Project</title>
+        
+            <meta property="og:url" content="https://rustlings.cool" />
+        
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="My Oranda Project" />
+        
+        
+        
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+        <link rel="stylesheet" href="/oranda-v0.3.1.css" />
+        
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="page-body">
+                
+                    <div class="repo_banner">
+                        <a href="https://github.com/rust-lang/rustlings">
+                            <div class="github-icon" aria-hidden="true"></div>
+                            Check out our GitHub!
+                        </a>
+                    </div>
+                
+
+                <main>
+                    <header>
+                        
+                        <h1 class="title">My Oranda Project</h1>
+                        
+    <nav class="nav">
+        <ul>
+            <li><a href="/">Home</a></li>
+
+            
+
+            
+                <li><a href="/artifacts/">Install</a></li>
+            
+
+            
+
+            
+
+            
+                <li><a href="/changelog/">Changelog</a></li>
+            
+        </ul>
+    </nav>
+
+                    </header>
+
+                    
+<div>
+    <h1>Rustlings 5.0.0</h1>
+    <div class="releases-body">
+        
+        
+        <section class="release ">
+    
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.0.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Jul 16 2022 at 12:36 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>Probably Rustlings' biggest release yet! 🎉
+For detailed information, check the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#500-2022-07-16" rel="noopener noreferrer">changelog</a>. I'll post the features section here:</p>
+<ul>
+<li>Hint comments in exercises now also include a reference to the
+<code>hint</code> watch mode subcommand.</li>
+<li><strong>intro1</strong>: Added more hints to point the user to the source file.</li>
+<li><strong>variables</strong>: Switched variables3 and variables4.</li>
+<li>Moved <code>vec</code> and <code>primitive_types</code> exercises before <code>move_semantics</code>.</li>
+<li>Renamed <code>vec</code> to <code>vecs</code> to be more in line with the naming in general.</li>
+<li>Split up the <code>collections</code> exercises in their own folders.</li>
+<li><strong>vec2</strong>: Added a second part of the function that provides an alternative,
+immutable way of modifying vec values.</li>
+<li><strong>enums3</strong>: Added a hint.</li>
+<li>Moved <code>strings</code> before <code>modules</code>.</li>
+<li>Added a <code>strings3</code> exercise to teach modifying strings.</li>
+<li>Added a <code>hashmaps3</code> exercise for some advanced usage of hashmaps.</li>
+<li>Moved the original <code>quiz2</code> to be <code>strings4</code>, since it only tested strings
+anyways.</li>
+<li>Reworked <code>quiz2</code> into a new exercise that tests more chapters.</li>
+<li>Renamed <code>option</code> to <code>options</code>.</li>
+<li><strong>options1</strong>: Rewrote parts of the exercise to remove the weird array
+iteration stuff.</li>
+<li>Moved <code>generics3</code> to be <code>quiz3</code>.</li>
+<li>Moved box/arc exercises behind <code>iterators</code>.</li>
+<li><strong>iterators4</strong>: Added a test for factorials of zero.</li>
+<li>Split <code>threads1</code> between two exercises, the first one focusing more on
+<code>JoinHandle</code>s.</li>
+<li>Added a <code>threads3</code> exercises that uses <code>std::sync::mpsc</code>.</li>
+<li>Added a <code>clippy3</code> exercises with some more interesting checks.</li>
+<li><strong>as_ref_mut</strong>: Added a section that actually tests <code>AsMut</code>.</li>
+<li>Added 3 new lifetimes exercises.</li>
+<li>Added 3 new traits exercises.</li>
+</ul>
+<h3>Summary</h3>
+<p>This release adds 12 new exercises, makes tons of little (and sometimes significant) improvements to existing exercises, rearranges a good chunk of the exercises to make more sense in our curriculum (while still trying to stay faithful to the book), and it gets rid of some exercises that have not been a good fit for this project.</p>
+<p>There's still a fair amount of things that I want to change, such as having better exercises for smart pointers, but that's for a future release. Feel free to post your feedback after you've completed this new version of the course!</p>
+<p>Special thanks for the Rust Foundation for sponsoring the majority of my work on this release!</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/5.0.0
+</span></pre>
+
+
+    </div>
+</section>
+    </div>
+</div>
+
+                </main>
+            </div>
+
+            <footer>
+                
+                    <a href="https://github.com/rust-lang/rustlings"><div class="github-icon" aria-hidden="true"></div></a>
+                
+                <span>
+                    My Oranda Project
+                </span>
+            </footer>
+        </div>
+
+        
+            <script defer="true" data-domain="rustlings.cool" src="https://plausible.io/js/script.js"></script>
+        
+        
+
+        
+    </body>
+</html>

@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en" id="oranda" class="dark">
+    <head>
+        <title>My Oranda Project</title>
+        
+            <meta property="og:url" content="https://rustlings.cool" />
+        
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="My Oranda Project" />
+        
+        
+        
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+        <link rel="stylesheet" href="/oranda-v0.3.1.css" />
+        
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="page-body">
+                
+                    <div class="repo_banner">
+                        <a href="https://github.com/rust-lang/rustlings">
+                            <div class="github-icon" aria-hidden="true"></div>
+                            Check out our GitHub!
+                        </a>
+                    </div>
+                
+
+                <main>
+                    <header>
+                        
+                        <h1 class="title">My Oranda Project</h1>
+                        
+    <nav class="nav">
+        <ul>
+            <li><a href="/">Home</a></li>
+
+            
+
+            
+                <li><a href="/artifacts/">Install</a></li>
+            
+
+            
+
+            
+
+            
+                <li><a href="/changelog/">Changelog</a></li>
+            
+        </ul>
+    </nav>
+
+                    </header>
+
+                    
+<div>
+    <h1>Releases</h1>
+    <div class="releases-wrapper">
+        <nav class="releases-nav">
+            
+
+            
+            <ul>
+                
+                     <li class="">
+                         <a href="v6.1.0/">v6.1.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="v6.0.1/">v6.0.1</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="v6.0.0/">v6.0.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="5.6.1/">5.6.1</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="5.6.0/">5.6.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="5.5.1/">5.5.1</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="5.5.0/">5.5.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="5.4.1/">5.4.1</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="5.4.0/">5.4.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="5.3.0/">5.3.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="5.2.1/">5.2.1</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="5.2.0/">5.2.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="5.1.1/">5.1.1</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="5.1.0/">5.1.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="5.0.0/">5.0.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="4.8.0/">4.8.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="4.7.1/">4.7.1</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="4.7.0/">4.7.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="4.6.0/">4.6.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="4.5.0/">4.5.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="4.4.0/">4.4.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="4.3.0/">4.3.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="4.2.0/">4.2.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="4.1.0/">4.1.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="4.0.0/">4.0.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="3.0.0/">3.0.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="2.2.1/">2.2.1</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="2.2.0/">2.2.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="2.1.0/">2.1.0</a>
+                     </li>
+                
+                     <li class="">
+                         <a href="2.0.0/">2.0.0</a>
+                     </li>
+                
+            </ul>
+        </nav>
+
+        <div class="releases-list">
+            
+                
+                <section class="release ">
+    <h2 id="tag-v6.1.0">
+        <a href="v6.1.0/">
+            
+                Rustlings 6.1.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            v6.1.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Jul 10 2024 at 14:55 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#610-2024-07-10" rel="noopener noreferrer">CHANGELOG</a> ✨</p>
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-v6.0.1">
+        <a href="v6.0.1/">
+            
+                Rustlings 6.0.1
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            v6.0.1
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Jul  4 2024 at 18:04 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>Small exercise improvements and fixes.
+Most importantly, fixed that the exercise <code>clippy1</code> was already solved 😅</p>
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-v6.0.0">
+        <a href="v6.0.0/">
+            
+                Rustlings 6.0.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            v6.0.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Jul  3 2024 at 13:43 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>A rewrite with a ton of new features and changes ✨</p>
+<p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#600-2024-07-03" rel="noopener noreferrer"><strong>CHANGELOG</strong></a> for the most important changes.</p>
+<p>This version is not compatible with older versions. You need to start over with the exercises if you want to try it out. You could try copying some of your old solutions.</p>
+<p>Follow the <a href="https://github.com/rust-lang/rustlings?tab=readme-ov-file#getting-started" rel="noopener noreferrer">instructions in the README</a> for getting started 🚀</p>
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-5.6.1">
+        <a href="5.6.1/">
+            
+                Rustlings 5.6.1
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.6.1
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Sep 18 2023 at 08:18 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>Patch release to mainly fix a <a href="https://github.com/rust-lang/rustlings/pull/1668" rel="noopener noreferrer">regression introduced in <code>cow1</code></a>.</p>
+<p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#561-2023-09-18" rel="noopener noreferrer">changelog</a> for what changed.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#eeffff;">git fetch
+</span><span style="color:#eeffff;">git checkout tags/5.6.1
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-5.6.0">
+        <a href="5.6.0/">
+            
+                Rustlings 5.6.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.6.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Sep  4 2023 at 13:24 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#560-2023-09-04" rel="noopener noreferrer">changelog</a> for what changed.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#eeffff;">git fetch
+</span><span style="color:#eeffff;">git checkout tags/5.6.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-5.5.1">
+        <a href="5.5.1/">
+            
+                Rustlings 5.5.1
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.5.1
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                May 17 2023 at 19:07 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>Patch release to fix <code>rust-analyzer</code> usage on Windows (we circumvented it but upstream fixed the root issue).</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#eeffff;">git fetch
+</span><span style="color:#eeffff;">git checkout tags/5.5.1
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-5.5.0">
+        <a href="5.5.0/">
+            
+                Rustlings 5.5.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.5.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                May 17 2023 at 14:31 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#550-2023-05-17" rel="noopener noreferrer">changelog</a> for what changed.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#eeffff;">git fetch
+</span><span style="color:#eeffff;">git checkout tags/5.5.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-5.4.1">
+        <a href="5.4.1/">
+            
+                Rustlings 5.4.1
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.4.1
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Mar 10 2023 at 16:40 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#541-2023-03-10" rel="noopener noreferrer">changelog</a> for what changed.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#eeffff;">git fetch
+</span><span style="color:#eeffff;">git checkout tags/5.4.1
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-5.4.0">
+        <a href="5.4.0/">
+            
+                Rustlings 5.4.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.4.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Feb 12 2023 at 17:03 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#540-2023-02-12" rel="noopener noreferrer">changelog</a> for what changed.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#eeffff;">git fetch
+</span><span style="color:#eeffff;">git checkout tags/5.4.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-5.3.0">
+        <a href="5.3.0/">
+            
+                Rustlings 5.3.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.3.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Dec 23 2022 at 16:10 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#530-2022-12-23" rel="noopener noreferrer">changelog</a> for what changed.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#eeffff;">git fetch
+</span><span style="color:#eeffff;">git checkout tags/5.3.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-5.2.1">
+        <a href="5.2.1/">
+            
+                Rustlings 5.2.1
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.2.1
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Sep  6 2022 at 10:23 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#521-2022-09-06" rel="noopener noreferrer">changelog</a> for what changed.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#eeffff;">git fetch
+</span><span style="color:#eeffff;">git checkout tags/5.2.1
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-5.2.0">
+        <a href="5.2.0/">
+            
+                Rustlings 5.2.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.2.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Aug 27 2022 at 18:50 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#520-2022-08-27" rel="noopener noreferrer">changelog</a> for what changed.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#eeffff;">git fetch
+</span><span style="color:#eeffff;">git checkout tags/5.2.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-5.1.1">
+        <a href="5.1.1/">
+            
+                Rustlings 5.1.1
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.1.1
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Aug 17 2022 at 08:44 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>Fixes an incorrect assertion in <code>options1.rs</code>.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/5.1.1
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-5.1.0">
+        <a href="5.1.0/">
+            
+                Rustlings 5.1.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.1.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Aug 16 2022 at 07:56 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>This release cleans up a bunch of the bugs left in 5.0, and adds two new smart pointer exercises. For detailed information, check the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#510-2022-08-16" rel="noopener noreferrer">changelog</a>.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/5.1.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-5.0.0">
+        <a href="5.0.0/">
+            
+                Rustlings 5.0.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            5.0.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Jul 16 2022 at 12:36 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>Probably Rustlings' biggest release yet! 🎉
+For detailed information, check the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#500-2022-07-16" rel="noopener noreferrer">changelog</a>. I'll post the features section here:</p>
+<ul>
+<li>Hint comments in exercises now also include a reference to the
+<code>hint</code> watch mode subcommand.</li>
+<li><strong>intro1</strong>: Added more hints to point the user to the source file.</li>
+<li><strong>variables</strong>: Switched variables3 and variables4.</li>
+<li>Moved <code>vec</code> and <code>primitive_types</code> exercises before <code>move_semantics</code>.</li>
+<li>Renamed <code>vec</code> to <code>vecs</code> to be more in line with the naming in general.</li>
+<li>Split up the <code>collections</code> exercises in their own folders.</li>
+<li><strong>vec2</strong>: Added a second part of the function that provides an alternative,
+immutable way of modifying vec values.</li>
+<li><strong>enums3</strong>: Added a hint.</li>
+<li>Moved <code>strings</code> before <code>modules</code>.</li>
+<li>Added a <code>strings3</code> exercise to teach modifying strings.</li>
+<li>Added a <code>hashmaps3</code> exercise for some advanced usage of hashmaps.</li>
+<li>Moved the original <code>quiz2</code> to be <code>strings4</code>, since it only tested strings
+anyways.</li>
+<li>Reworked <code>quiz2</code> into a new exercise that tests more chapters.</li>
+<li>Renamed <code>option</code> to <code>options</code>.</li>
+<li><strong>options1</strong>: Rewrote parts of the exercise to remove the weird array
+iteration stuff.</li>
+<li>Moved <code>generics3</code> to be <code>quiz3</code>.</li>
+<li>Moved box/arc exercises behind <code>iterators</code>.</li>
+<li><strong>iterators4</strong>: Added a test for factorials of zero.</li>
+<li>Split <code>threads1</code> between two exercises, the first one focusing more on
+<code>JoinHandle</code>s.</li>
+<li>Added a <code>threads3</code> exercises that uses <code>std::sync::mpsc</code>.</li>
+<li>Added a <code>clippy3</code> exercises with some more interesting checks.</li>
+<li><strong>as_ref_mut</strong>: Added a section that actually tests <code>AsMut</code>.</li>
+<li>Added 3 new lifetimes exercises.</li>
+<li>Added 3 new traits exercises.</li>
+</ul>
+<h3>Summary</h3>
+<p>This release adds 12 new exercises, makes tons of little (and sometimes significant) improvements to existing exercises, rearranges a good chunk of the exercises to make more sense in our curriculum (while still trying to stay faithful to the book), and it gets rid of some exercises that have not been a good fit for this project.</p>
+<p>There's still a fair amount of things that I want to change, such as having better exercises for smart pointers, but that's for a future release. Feel free to post your feedback after you've completed this new version of the course!</p>
+<p>Special thanks for the Rust Foundation for sponsoring the majority of my work on this release!</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/5.0.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-4.8.0">
+        <a href="4.8.0/">
+            
+                Rustlings 4.8.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            4.8.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Jul  1 2022 at 14:50 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>Adds a progress indicator, a new <code>rustlings lsp</code> command, and more! For detailed information, check the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#480-2022-07-01" rel="noopener noreferrer">changelog</a>.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/4.8.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-4.7.1">
+        <a href="4.7.1/">
+            
+                Rustlings 4.7.1
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            4.7.1
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Apr 20 2022 at 07:46 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>Mainly reduces the crate size by a bit, thus also reducing compilation time. See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#4.7.1" rel="noopener noreferrer">changelog</a> to see what's changed.</p>
+<p>To upgrade, run:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/4.7.1
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-4.7.0">
+        <a href="4.7.0/">
+            
+                Rustlings 4.7.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            4.7.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Apr 14 2022 at 09:23 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#4.7.0" rel="noopener noreferrer">changelog</a> for what's changed. Some highlights:</p>
+<ul>
+<li>A new intro section prefixing the normal exercises has been added.</li>
+<li>New exercise, <code>move_semantics4</code>.</li>
+<li><code>rust-analyzer</code> support has been added via an optional crate feature. More info in the <a href="https://github.com/rust-lang/rustlings#enabling-rust-analyzer" rel="noopener noreferrer">README</a></li>
+<li>Tons and tons of bug fixes.</li>
+</ul>
+<p>To upgrade, run:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/4.7.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-4.6.0">
+        <a href="4.6.0/">
+            
+                Rustlings 4.6.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            4.6.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Sep 25 2021 at 09:27 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#4.6.0" rel="noopener noreferrer">changelog</a> for what's changed. Some highlights:</p>
+<ul>
+<li>New exercises:
+<ul>
+<li><code>advanced_errs1</code> and <code>advanced_errs2</code></li>
+<li><code>modules3</code></li>
+</ul>
+</li>
+<li><code>try_from_into</code> and <code>from_str</code> have been reworked to include custom error types.</li>
+<li>Watch mode now has a <code>quit</code> and <code>help</code> command.</li>
+<li>Watch mode now also shows you a nice farewell message when you exit it.</li>
+</ul>
+<p>To upgrade, run:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/4.6.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-4.5.0">
+        <a href="4.5.0/">
+            
+                Rustlings 4.5.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            4.5.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Jul  7 2021 at 20:30 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#4.5.0" rel="noopener noreferrer">changelog</a> for what's changed.</p>
+<p>To upgrade, run:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/4.5.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-4.4.0">
+        <a href="4.4.0/">
+            
+                Rustlings 4.4.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            4.4.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Apr 24 2021 at 10:04 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#4.4.0" rel="noopener noreferrer">changelog</a> for what's changed. Some highlights:</p>
+<ul>
+<li>A <em>lot</em> of small and large improvements to how exercises work</li>
+<li><code>rustlings list</code> now displays structured data, and a takes a lot more options to filter that data:</li>
+</ul>
+<img width="599" alt="image" src="https://user-images.githubusercontent.com/6445316/115955048-a27cde80-a4f4-11eb-8030-07ec21eb8ff2.png">
+<ul>
+<li>It also now shows you progress per-exercise, and a total summary of your completion:</li>
+</ul>
+<img width="393" alt="image" src="https://user-images.githubusercontent.com/6445316/115955082-dd7f1200-a4f4-11eb-9cbb-ec785edf6b97.png">
+<ul>
+<li>The compliation times for Rustlings should be significantly sped up, we replaced the crate we use for CLI option parsing with something more lightweight</li>
+<li>Rustlings now respects the <code>NO_EMOJI</code> envionment variable</li>
+<li>A new exercise, <code>iterators5</code>, has been added</li>
+</ul>
+<p>To upgrade, run:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/4.4.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-4.3.0">
+        <a href="4.3.0/">
+            
+                Rustlings 4.3.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            4.3.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Dec 29 2020 at 10:41 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#4.3.0" rel="noopener noreferrer">changelog</a> for what's changed. Some highlights:</p>
+<ul>
+<li>The text you see when running <code>rustlings</code> (without any arguments) should now be more helpful</li>
+<li>The exercise order has been adjusted to more closely match the order of chapter in the Rust book</li>
+<li>A <code>rustlings list</code> command has been added</li>
+</ul>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/4.3.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-4.2.0">
+        <a href="4.2.0/">
+            
+                Rustlings 4.2.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            4.2.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Nov  7 2020 at 13:22 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#4.2.0" rel="noopener noreferrer">changelog</a> for what's changed.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/4.2.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-4.1.0">
+        <a href="4.1.0/">
+            
+                Rustlings 4.1.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            4.1.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Oct  5 2020 at 16:45 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#4.1.0" rel="noopener noreferrer">changelog</a> for what's changed.</p>
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-4.0.0">
+        <a href="4.0.0/">
+            
+                Rustlings 4.0.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            4.0.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Jul  8 2020 at 09:41 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/main/CHANGELOG.md#400-2020-07-08" rel="noopener noreferrer">changelog</a> for what's changed.</p>
+<p>The important breaking changes that make this a major release are:</p>
+<ul>
+<li><code>testX.rs</code> files have been renamed <code>quizX.rs</code>, due to people confusing them with the similarly-named <code>testsX.rs</code> exercises (which are about testing, not <em>being</em> tested)</li>
+<li>You can now display the console output for tests using the new <code>--nocapture</code> option. This adds a new boolean argument to most CLI commands.</li>
+</ul>
+<p>Thanks to all of the people who contributed! A full list can be seen <a href="https://github.com/rust-lang/rustlings/compare/3.0.0...4.0.0" rel="noopener noreferrer">here</a>, there's too many people for me to manually list here, sorry 😓</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/4.0.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-3.0.0">
+        <a href="3.0.0/">
+            
+                Rustlings 3.0.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            3.0.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Apr 11 2020 at 22:04 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/fmoko/rustlings/blob/master/CHANGELOG.md#300-2020-04-11" rel="noopener noreferrer">changelog</a> for what's changed.</p>
+<p>As for what makes this a breaking release, in #278 we decided to make the <code>compile</code> exercise mode log its output to stdout. Since this changes existing user behaviour in a (broadly) backwards-incompatible way, we decided to make this a major release.</p>
+<p>The good thing is that you don't need to do anything to upgrade! 🎉</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/3.0.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-2.2.1">
+        <a href="2.2.1/">
+            
+                Rustlings 2.2.1
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            2.2.1
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Feb 27 2020 at 18:24 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/master/CHANGELOG.md#221-2020-02-27" rel="noopener noreferrer">changelog</a> for what's changed.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/2.2.1
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-2.2.0">
+        <a href="2.2.0/">
+            
+                Rustlings 2.2.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            2.2.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Feb 25 2020 at 22:09 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>This release adds a bunch of new exercises:</p>
+<ul>
+<li>A new variables exercise (#264, thanks to @TorbenJ!)</li>
+<li>Exercises about type conversion and and parsing (#249, thanks to @AbdouSeck!)</li>
+<li>Trait-related exercises (#216/#274, thanks to @s-marios for the exercises and to @sjmann for rebasing them!)</li>
+</ul>
+<p>Additionally, Rustlings now displays a success message when you've finished all exercises (#253), thanks to @codehearts!</p>
+<p>There's a lot more, read the <a href="https://github.com/rust-lang/rustlings/blob/master/CHANGELOG.md#220-2020-02-25" rel="noopener noreferrer">changelog</a> for more details!</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">git fetch
+</span><span style="color:#82aaff;">git checkout tags/2.2.0
+</span></pre>
+
+<p>Thanks to the following people for contributing to this release:</p>
+<ul>
+<li>@harrisonmetz</li>
+<li>@Socratides</li>
+<li>@pbx</li>
+<li>@sjmann</li>
+<li>@quintenjohnson</li>
+<li>@rahatarmanahmed</li>
+<li>@dmitri-mamrukov</li>
+<li>@pewsheen</li>
+<li>@TorbenJ</li>
+<li>@codehearts</li>
+<li>@AbdouSeck</li>
+<li>@gnodarse</li>
+<li>@Stigjb</li>
+<li>@s-marios</li>
+</ul>
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-2.1.0">
+        <a href="2.1.0/">
+            
+                2.1.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            2.1.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Nov 27 2019 at 09:47 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://github.com/rust-lang/rustlings/blob/master/CHANGELOG.md#210-2019-11-27" rel="noopener noreferrer">changelog</a> for what's changed.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#eeffff;">git fetch
+</span><span style="color:#eeffff;">git checkout tags/2.1.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+                
+                <section class="release ">
+    <h2 id="tag-2.0.0">
+        <a href="2.0.0/">
+            
+                2.0.0
+            
+        </a>
+    </h2>
+    <div class="release-info">
+        <span class="flex items-center gap-2">
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+    <path stroke-linecap='round' stroke-linejoin='round' d='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z' />
+    <path stroke-linecap='round' stroke-linejoin='round' d='M6 6h.008v.008H6V6z' /></svg>
+            2.0.0
+        </span>
+        <span class="flex items-center gap-2">
+            
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5' /></svg>
+                Nov 12 2019 at 11:26 UTC
+            
+        </span>
+    </div>
+    <div class="release-body">
+        <p>See the <a href="https://write.as/mokou/rustlings-2-0-and-human-centered-versioning" rel="noopener noreferrer">blog post</a> and the <a href="https://github.com/rust-lang/rustlings/blob/master/CHANGELOG.md#2.0.0" rel="noopener noreferrer">changelog</a> for what's changed.</p>
+<p>To upgrade:</p>
+<pre style="background-color:#263238;"><span style="color:#eeffff;">git fetch
+</span><span style="color:#eeffff;">git checkout tags/2.0.0
+</span></pre>
+
+
+    </div>
+</section>
+            
+        </div>
+    </div>
+</div>
+
+                </main>
+            </div>
+
+            <footer>
+                
+                    <a href="https://github.com/rust-lang/rustlings"><div class="github-icon" aria-hidden="true"></div></a>
+                
+                <span>
+                    My Oranda Project
+                </span>
+            </footer>
+        </div>
+
+        
+            <script defer="true" data-domain="rustlings.cool" src="https://plausible.io/js/script.js"></script>
+        
+        
+
+        
+<script src="/artifacts.js"></script>
+
+    </body>
+</html>
